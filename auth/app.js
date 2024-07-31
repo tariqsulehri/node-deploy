@@ -1,6 +1,7 @@
 const express =  require('express');
 const app =  express();
 
+console.log('Running tests');
 
 app.get('/', async (req, res)=>{
     res.status(200).send('ok');
